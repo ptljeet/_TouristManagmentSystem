@@ -10,7 +10,7 @@ namespace ProjectTouristManagmentSystem
 
         private DatabaseConnection()
         {
-            string connectionString = "User Id=n01660394;Password=oracle;Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=calvin.humber.ca)(PORT=1521))(CONNECT_DATA=(SID=grok)))";
+            string connectionString = "User Id=YOURID;Password=YOURPASSWORD;Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=calvin.humber.ca)(PORT=1521))(CONNECT_DATA=(SID=grok)))";
             connection = new OracleConnection(connectionString);
         }
 
